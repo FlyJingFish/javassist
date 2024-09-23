@@ -11,5 +11,5 @@ JarUtils.INSTANCE.setRootProjectPath(projectPath);
 
 判断依据：
 
-如果jar来自当前项目，大概率可能是自定义module产生的jar，那么就使用缓存，否则不使用缓存
+如果jar来自当前项目，大概率可能是自定义module产生的jar，那么就不可以使用缓存，否则可以使用缓存
 
