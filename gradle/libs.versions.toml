@@ -1,7 +1,7 @@
 [versions]
 kotlin="2.0.0"
-nexus-publish-version="2.0.0-rc-1"
+maven-publish-version="0.29.0"
 
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
-nexusPlugin = { id = "io.github.gradle-nexus.publish-plugin", version.ref = "nexus-publish-version" }
+mavenPlugin = { id = "com.vanniktech.maven.publish", version.ref = "maven-publish-version" }

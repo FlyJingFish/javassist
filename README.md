@@ -1,4 +1,4 @@
-[![Maven central](https://img.shields.io/maven-central/v/io.github.FlyJingFish.javassist/javassist)](https://central.sonatype.com/namespace/io.github.FlyJingFish.javassist)
+[![Maven central](https://img.shields.io/maven-central/v/io.github.flyjingfish/javassist)](https://central.sonatype.com/artifact/io.github.flyjingfish/javassist/)
 [![GitHub license](https://img.shields.io/github/license/FlyJingFish/AndroidAOPPlugin.svg)](https://github.com/FlyJingFish/javassist/blob/master/LICENSE)
 ## About
 
