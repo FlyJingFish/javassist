@@ -34,9 +34,15 @@ public enum JarUtils {
     }
 
     public boolean isProjectJar(String filePath){
+        if (filePath == null){
+            return false;
+        }
         if (type == JarJudgeType.JAR_PATHS){
             return filePath.endsWith(".jar") && noCacheJarPaths.contains(filePath);
         }else {
+            if (rootProjectPath == null){
+                return false;
+            }
             return filePath.endsWith(".jar") && filePath.startsWith(rootProjectPath);
         }
     }
